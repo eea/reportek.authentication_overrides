@@ -1,0 +1,9 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:monkey="http://namespaces.plone.org/monkey"
+           xmlns:zcml="http://namespaces.zope.org/zcml"
+           i18n_domain="reportek.authentication_overrides">
+
+    <include package="collective.monkeypatcher" />
+    <include package="collective.monkeypatcher" file="meta.zcml" />
+
+</configure>

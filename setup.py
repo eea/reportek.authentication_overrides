@@ -25,6 +25,7 @@ setup(name='reportek.authentication_overrides',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.monkeypatcher'
           # -*- Extra requirements: -*-
       ],
       entry_points="""
