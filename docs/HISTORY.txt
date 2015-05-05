@@ -3,5 +3,6 @@ Changelog
 
 1.0dev (unreleased)
 -------------------
-
+- Added patch for PluggableAuthService
+  [olimpiurob #25030]
 - Initial release

@@ -5,6 +5,7 @@
     i18n_domain="reportek.authentication_overrides">
 
   <five:registerPackage package="." initialize=".initialize" />
-  <include file="patches.zcml"
+
+  <include file="patches.zcml" />
   
 </configure>
