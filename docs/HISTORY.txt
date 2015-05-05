@@ -3,6 +3,8 @@ Changelog
 
 1.0dev (unreleased)
 -------------------
-- Added patch for PluggableAuthService
+- Added patch for anz.casclient
+  [olimpiurob #25030]
+- Added patch for Products.PluggableAuthService
   [olimpiurob #25030]
 - Initial release

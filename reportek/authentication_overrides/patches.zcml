@@ -12,4 +12,10 @@
               replacement=".patch_products_pluggableauthservice._reportek_extractUserIds"
               preserveOriginal="false" />
 
+    <monkey:patch description="Patch for anz.casclient"
+              class="anz.casclient.validationspecification.Cas20ServiceTicketValidator"
+              original="parseResponseFromServer"
+              replacement=".patch_anz_casclient.reportek_parseResponseFromServer"
+              preserveOriginal="false" />
+
 </configure>
