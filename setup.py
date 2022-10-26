@@ -35,5 +35,5 @@ setup(name='reportek.authentication_overrides',
       target = plone
       """,
       setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
+      paster_plugins=["ZopeSkel"]
       )
