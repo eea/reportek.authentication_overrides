@@ -28,12 +28,5 @@ setup(name='reportek.authentication_overrides',
           'setuptools',
           'collective.monkeypatcher'
           # -*- Extra requirements: -*-
-      ],
-      entry_points="""
-      # -*- Entry points: -*-
-
-      [z3c.autoinclude.plugin]
-      target = plone
-      """,
-      setup_requires=["PasteScript"]
-      )
+      ]
+)
