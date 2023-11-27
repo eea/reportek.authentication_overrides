@@ -22,7 +22,7 @@ setup(name='reportek.authentication_overrides',
       packages=find_packages(),
 #      package_dir = {'': 'src'},
 #      packages=find_packages(where=r'./src'),
-#      namespace_packages=['reportek'],
+      namespace_packages=['reportek'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
